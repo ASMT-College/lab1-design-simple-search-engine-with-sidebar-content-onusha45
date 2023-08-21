@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        table, th, td {
+          border: 1px solid black;
+          border-collapse: collapse;
+        }
+        </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colspan & Rowspan</title>
+</head>
+<body>
+    <table >
+        <colgroup>
+         <col span="2" style="background-color: aquamarine;">
+        </colgroup>
+        <tr>
+            <th colspan="2">First & last name</th>
+            <th>Address</th>
+            <th>Contact</th>
+        </tr>
+        <tr>
+            <td>Anusha </td>
+            <td>Chaudhary</td>
+            <td>Sitapaila</td>
+            <td>9812345678</td>
+        </tr>
+        <tr>
+            <td>Sanish </td>
+            <td>Bal</td>
+            <td>Budhanilkantha</td>
+            <td>9852364122</td>
+        </tr>
+        <tr>
+            <td>Rahul </td>
+            <td>karki</td>
+            <td>Chakrapath</td>
+            <td>9812547625</td>
+        </tr>
+    </table>
+    <br><br><br><br><br>
+    <table>
+        <tr>
+            <th >Name</th>
+            <td>Anusha</td>
+        </tr>
+            <tr>
+                <th rowspan="2">Contact</th>
+                <td >982811866</td>
+            </tr>
+            <tr>
+                <td>9856728455</td>
+            </tr>
+    </table>
+    
+</body>
+</html>
